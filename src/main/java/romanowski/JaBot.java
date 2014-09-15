@@ -1,18 +1,15 @@
 package romanowski;
 
 import robocode.HitByBulletEvent;
-import robocode.HitWallEvent;
 import robocode.Robot;
 import robocode.ScannedRobotEvent;
 import romanowski.crew.Commander;
-import romanowski.crew.Gunner;
 
 /**
  * Created by krzysiek on 11.06.14.
  */
 public class JaBot extends Robot {
 
-    Gunner gunner = new Gunner(this);
     Commander commander = new Commander(this);
 
     @Override

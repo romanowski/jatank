@@ -24,13 +24,16 @@ public class Commander {
 
     public Commander(JaBot robot) {
         this.robot = robot;
+
         fireRules.add(new CloseFire());
         fireRules.add(new FarFireAhead());
         fireRules.add(new FarFireBelow());
         fireRules.add(new FarFireFarBelow());
         fireRules.add(new FarFireFarAhead());
 
-
+        moveRules.add(new JustMove());
+        moveRules.add(new RotateAndRun());
+        moveRules.add(new HalfCircle());
 
 
     }
