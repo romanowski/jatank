@@ -1,0 +1,9 @@
+target
+project
+robots
+robocode
+robots-old
+engine
+start.sh
+*~
+.idea*
